@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use('/api', cafeRoutes);
 app.use('/api', employeeRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
