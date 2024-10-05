@@ -1,0 +1,11 @@
+2024-10-05T08:32:19.600Z [INFO]: Received request to get cafes with location: Location 1
+2024-10-05T08:32:19.603Z [INFO]: Fetching all cafes. Location: Location 1
+2024-10-05T08:32:19.635Z [INFO]: Fetched 3 cafes.
+2024-10-05T08:48:56.350Z [INFO]: Received request to get cafes with location: city-center
+2024-10-05T08:48:56.370Z [ERROR]: Error getting cafes: Cannot read properties of undefined (reading 'location')
+2024-10-05T08:48:56.378Z [INFO]: Received request to create cafe: Cafe A
+2024-10-05T08:48:56.383Z [ERROR]: Error creating cafe: Cannot read properties of undefined (reading 'name')
+2024-10-05T08:48:56.388Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T08:48:56.391Z [ERROR]: Error getting employees: Cannot read properties of undefined (reading 'cafe')
+2024-10-05T08:48:56.395Z [INFO]: Received request to create employee: John Doe
+2024-10-05T08:48:56.398Z [ERROR]: Error creating employee: Cannot read properties of undefined (reading 'name')

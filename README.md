@@ -12,7 +12,7 @@ Ensure you have Node.js installed on your machine. You can download it from [nod
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sathathinesh/Cafe-Employee.git
+   git clone https://github.com/Sathathinesh/Employee-Cafe.git
    cd cafe-employee-backend
 
 2. Install the dependencies:
@@ -40,7 +40,7 @@ Ensure you have Node.js installed on your machine. You can download it from [nod
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sathathinesh/Cafe-Employee.git
+   git clone https://github.com/Sathathinesh/Employee-Cafe.git
    cd cafe-employee-frontend
 
 2. Install the dependencies:
