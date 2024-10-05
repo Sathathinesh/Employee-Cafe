@@ -9,3 +9,31 @@
 2024-10-05T08:48:56.391Z [ERROR]: Error getting employees: Cannot read properties of undefined (reading 'cafe')
 2024-10-05T08:48:56.395Z [INFO]: Received request to create employee: John Doe
 2024-10-05T08:48:56.398Z [ERROR]: Error creating employee: Cannot read properties of undefined (reading 'name')
+2024-10-05T14:34:22.165Z [INFO]: Received request to get cafes with location: city-center
+2024-10-05T14:34:22.164Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T16:35:01.730Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T16:35:01.729Z [INFO]: Received request to get cafes with location: city-center
+2024-10-05T16:35:01.736Z [INFO]: Received request to get cafes with location: undefined
+2024-10-05T16:35:01.736Z [ERROR]: Error getting cafes: Service Error
+2024-10-05T16:35:01.738Z [INFO]: Received request to create cafe: Cafe C
+2024-10-05T16:35:01.740Z [INFO]: Received request to create cafe: Cafe D
+2024-10-05T16:35:01.740Z [ERROR]: Error creating cafe: Service Error
+2024-10-05T16:35:01.742Z [INFO]: Received request to update cafe with id: undefined
+2024-10-05T16:35:01.759Z [INFO]: Received request to update cafe with id: undefined
+2024-10-05T16:35:01.762Z [INFO]: Received request to update cafe with id: undefined
+2024-10-05T16:35:01.763Z [ERROR]: Error updating cafe: Service Error
+2024-10-05T16:35:01.766Z [INFO]: Received request to delete cafe with id: undefined
+2024-10-05T16:35:01.768Z [INFO]: Received request to delete cafe with id: undefined
+2024-10-05T16:35:01.770Z [INFO]: Received request to delete cafe with id: undefined
+2024-10-05T16:35:01.771Z [ERROR]: Error deleting cafe: Service Error
+2024-10-05T16:43:02.755Z [INFO]: Received request to get cafes with location: city-center
+2024-10-05T16:43:02.773Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T16:44:17.629Z [INFO]: Received request to get cafes with location: city-center
+2024-10-05T16:44:17.634Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T16:44:17.640Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-05T16:44:17.641Z [ERROR]: Error getting employees: Service Error
+2024-10-05T16:44:17.643Z [INFO]: Received request to create employee: John Doe
+2024-10-05T16:44:17.646Z [INFO]: Received request to create employee: Jane Doe
+2024-10-05T16:44:17.646Z [ERROR]: Error creating employee: Service Error
+2024-10-05T16:53:21.892Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-05T16:54:05.470Z [INFO]: Received request to get employees for cafe: Cafe A
