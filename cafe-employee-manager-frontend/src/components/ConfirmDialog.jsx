@@ -1,4 +1,4 @@
-// components/ConfirmationDialog.js
+
 import React from 'react';
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Button } from '@mui/material';
 
