@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import { Link } from '@tanstack/router';
+import CustomLink from './CustomLink';
 
 const Navbar = () => {
   return (
@@ -11,15 +11,15 @@ const Navbar = () => {
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           Café Employee Manager
         </Typography>
-        <Button color="inherit" component={Link} to="/">
-          Home
-        </Button>
-        <Button color="inherit" component={Link} to="/cafes">
-          Cafes
-        </Button>
-        <Button color="inherit" component={Link} to="/employees">
-          Employees
-        </Button>
+        <CustomLink variant="contained" color="inherit" to="/">
+           Home
+        </CustomLink>
+        <CustomLink variant="contained" color="inherit" to="/cafes">
+        Cafes
+        </CustomLink>
+        <CustomLink variant="contained" color="inherit" to="/employees">
+        Employees
+        </CustomLink>
       </Toolbar>
     </AppBar>
   );

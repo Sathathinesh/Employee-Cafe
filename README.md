@@ -41,7 +41,7 @@ Ensure you have Node.js installed on your machine. You can download it from [nod
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sathathinesh/Employee-Cafe.git
-   cd cafe-employee-frontend
+   cd cafe-employee-manager-frontend
 
 2. Install the dependencies:
    ```bash
@@ -49,6 +49,7 @@ Ensure you have Node.js installed on your machine. You can download it from [nod
 
 3. Running the Application:
     ```bash
-    npm start
+    npm run dev
+    
 
 
