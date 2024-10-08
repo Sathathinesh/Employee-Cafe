@@ -1,16 +1,11 @@
 
 import axios from 'axios';
 
-// // Create an Axios instance
-// const api = axios.create({
-//   baseURL: '/api', // Base URL for API endpoints
-// });
-
 const api = axios.create({
-    baseURL: 'http://localhost:8080', // Replace with your backend URL
-    headers: {
-      'Content-Type': 'application/json',
-    },
+  baseURL: 'http://localhost:8088/api', // Replace with your backend URL
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 // Cafes API

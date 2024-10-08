@@ -1,6 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const router = express.Router();
 const cafeController = require('../controllers/cafeController');
+
+router.options('*', cors())
 
 router.get('/cafes', cafeController.getCafes);
 router.post('/cafe', cafeController.createCafe);

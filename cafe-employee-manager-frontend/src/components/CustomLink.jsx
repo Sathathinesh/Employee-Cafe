@@ -1,19 +1,24 @@
-// src/components/CustomLink.jsx
-import React from 'react';
+import PropTypes from 'prop-types';
 import { Button } from '@mui/material';
-import { router } from '../router/router'; // Adjust the import path as needed
+import { useNavigate } from '@tanstack/react-router';
 
 const CustomLink = ({ to, children, ...props }) => {
-  const handleClick = (e) => {
-    e.preventDefault();
-    router.navigate({ to });
-  };
+	const navigate = useNavigate();
+	const handleClick = (e) => {
+		e.preventDefault();
+		navigate({ to });
+	};
 
-  return (
-    <Button {...props} onClick={handleClick}>
-      {children}
-    </Button>
-  );
+	return (
+		<Button {...props} onClick={handleClick}>
+			{children}
+		</Button>
+	);
+};
+
+CustomLink.propTypes = {
+	to: PropTypes.string.isRequired,
+	children: PropTypes.node.isRequired,
 };
 
 export default CustomLink;

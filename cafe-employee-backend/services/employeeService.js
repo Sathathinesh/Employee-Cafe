@@ -2,6 +2,29 @@ const { Employee, Cafe, EmployeeCafe } = require('../models');
 const logger = require('../logger');
 
 const getEmployeesByCafe = async (cafeName) => {
+  
+  if (!cafeName) {
+    logger.info(`Cafe name is not provided, fetching all employees`);
+
+    // Fetch all employees if no specific cafe is provided
+    const allEmployees = await Employee.findAll();
+    logger.info(`Fetched ${allEmployees.length} employees`);
+
+    return allEmployees.map(employee => {
+      const startDate = employee.EmployeeCafe?.start_date || new Date();
+      const daysWorked = Math.floor((new Date() - new Date(startDate)) / (1000 * 60 * 60 * 24));
+
+      return {
+        id: employee.id,
+        name: employee.name,
+        email_address: employee.email_address,
+        phone_number: employee.phone_number,
+        days_worked: daysWorked,
+        cafe: employee.EmployeeCafe?.Cafe?.name || 'No Cafe Assigned',
+      };
+    }).sort((a, b) => b.days_worked - a.days_worked);
+  }
+
   logger.info(`Fetching employees for cafe: ${cafeName}`);
   const cafeInstance = await Cafe.findOne({ where: { name: cafeName } });
   if (!cafeInstance) {

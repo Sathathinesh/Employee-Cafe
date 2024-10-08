@@ -37,3 +37,150 @@
 2024-10-05T16:44:17.646Z [ERROR]: Error creating employee: Service Error
 2024-10-05T16:53:21.892Z [INFO]: Received request to get employees for cafe: Cafe A
 2024-10-05T16:54:05.470Z [INFO]: Received request to get employees for cafe: Cafe A
+2024-10-07T15:44:33.252Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:44:33.256Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:44:33.284Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:44:48.866Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:44:48.867Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:44:48.870Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:44:49.892Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:44:49.893Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:44:49.894Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:44:51.914Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:44:51.915Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:44:51.916Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:44:55.935Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:44:55.935Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:44:55.935Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:45:19.466Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:45:19.466Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:45:19.477Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:45:22.054Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:45:22.055Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:45:22.056Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:45:23.078Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:45:23.078Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:45:23.080Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:45:25.105Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:45:25.105Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:45:25.108Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:45:29.143Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:45:29.143Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:45:29.146Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:11.044Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:11.045Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:11.050Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:12.136Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:12.136Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:12.137Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:13.497Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:48:13.497Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:48:13.506Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:48:39.286Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:39.286Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:39.287Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:40.309Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:40.309Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:40.309Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:42.332Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:42.332Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:42.333Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:48:46.356Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:48:46.356Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:48:46.357Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:49:32.933Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:49:32.934Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:49:32.934Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:49:33.956Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:49:33.956Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:49:33.956Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:56:44.495Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:56:44.495Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:56:44.496Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:56:48.531Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:56:48.531Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:56:48.532Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:56:49.767Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:56:49.767Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:56:49.768Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:56:50.834Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T15:56:50.834Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T15:56:50.835Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T15:56:52.294Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:56:52.294Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:56:52.306Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:56:57.476Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:56:57.476Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:56:57.480Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:57:58.839Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:57:58.839Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:57:58.848Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:58:00.694Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:58:00.694Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:58:00.700Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:58:32.118Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:58:32.118Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:58:32.126Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:58:34.068Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:58:34.068Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:58:34.075Z [INFO]: Fetched 5 cafes.
+2024-10-07T15:58:52.884Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T15:58:52.885Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T15:58:52.904Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:03:12.721Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:03:12.722Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:03:12.734Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:03:15.316Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:15.316Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:15.317Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:16.339Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:16.340Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:16.341Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:18.363Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:18.364Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:18.364Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:22.384Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:22.385Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:22.385Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:24.911Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:24.912Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:24.912Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:25.945Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:25.945Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:25.947Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:27.975Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:27.976Z [INFO]: Fetching employees for cafe: undefined
+2024-10-07T16:03:27.977Z [ERROR]: Error getting employees: WHERE parameter "name" has invalid "undefined" value
+2024-10-07T16:03:32.020Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:32.025Z [INFO]: Cafe name is not provided, fetching all employees
+2024-10-07T16:03:32.035Z [INFO]: Fetched 2 employees
+2024-10-07T16:03:36.750Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:03:36.751Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:03:36.765Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:03:38.066Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:03:38.067Z [INFO]: Cafe name is not provided, fetching all employees
+2024-10-07T16:03:38.070Z [INFO]: Fetched 2 employees
+2024-10-07T16:04:05.049Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:05.049Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:05.058Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:04:06.238Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:04:06.238Z [INFO]: Cafe name is not provided, fetching all employees
+2024-10-07T16:04:06.242Z [INFO]: Fetched 2 employees
+2024-10-07T16:04:15.725Z [INFO]: Received request to get employees for cafe: undefined
+2024-10-07T16:04:15.725Z [INFO]: Cafe name is not provided, fetching all employees
+2024-10-07T16:04:15.727Z [INFO]: Fetched 2 employees
+2024-10-07T16:04:17.253Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:17.253Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:17.258Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:04:20.378Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:20.378Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:20.382Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:04:35.422Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:35.422Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:35.439Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:04:36.168Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:36.168Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:36.175Z [INFO]: Fetched 5 cafes.
+2024-10-07T16:04:38.633Z [INFO]: Received request to get cafes with location: undefined
+2024-10-07T16:04:38.633Z [INFO]: Fetching all cafes. Location: all
+2024-10-07T16:04:38.646Z [INFO]: Fetched 5 cafes.

@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: employee_cafe_db
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./cafe-employee-backend
+    container_name: backend
+    restart: always
+    environment:
+      PORT: 8088
+      DB_HOST: mysql
+      DB_USER: myuser
+      DB_PASSWORD: mypassword
+      DB_NAME: employee_cafe_db
+      DB_PORT: 3306
+      DB_DIALECT: mysql
+    ports:
+      - "8088:8088"
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  frontend:
+    build: 
+      context: ./cafe-employee-manager-frontend
+      args:
+        - NODE_ENV=production
+    container_name: frontend
+    restart: always
+    ports:
+      - "5173:80" # Map container's port 80 to host's port 5173
+    depends_on:
+      - backend
+
+volumes:
+  mysql-data:
