@@ -1,12 +1,13 @@
-
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import AppRouter from './router/router';
 import './index.css'; // Your global CSS
 
-ReactDOM.render(
-  <React.StrictMode>
-    <AppRouter />
-  </React.StrictMode>,
-  document.getElementById('root')
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
+	<React.StrictMode>
+		<AppRouter />
+	</React.StrictMode>
 );

@@ -1,4 +1,4 @@
-// hooks/useUnsavedChangesWarning.js
+
 import { useEffect } from 'react';
 
 const useUnsavedChangesWarning = (unsavedChanges, message = 'You have unsaved changes. Do you want to leave this page?') => {
@@ -6,8 +6,8 @@ const useUnsavedChangesWarning = (unsavedChanges, message = 'You have unsaved ch
     const handleBeforeUnload = (event) => {
       if (unsavedChanges) {
         event.preventDefault();
-        event.returnValue = message; // Standard for most browsers
-        return message; // For old browsers
+        event.returnValue = message; 
+        return message; 
       }
     };
 
